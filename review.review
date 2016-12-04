@@ -1,0 +1,78 @@
+AptiAptitude
+
+1. Two tables emp (empid, name, deptid, sal) and dept(deptid, deptname) are there. Write a query which displays empname, corresponding deptname also display those employee names who do not belong to any dept.
+
+2. Display the employees whose salary is less than average salary.
+
+3. What is the output of the program
+main()
+{
+int c=5;
+printf("%d %d %d",c,c<<2,c>> 2);
+}
+
+4. main()
+{
+int a[8][10],c=0,i,j;
+for(i=0;i<10;
+i++) for(j=0;
+j<8;j++) a[j][i]=c++;
+printf("%d",a[3][6]);
+}
+
+5.What is the wrong in this program
+main()
+{
+char *p,*q;
+p=(char *)malloc(25);
+q=(char*) malloc(25);
+strcpy(p,"amazon" );
+strcpy(q,"hyd");
+strcat(p,q);
+printf("%s",p);
+}
+
+6. Write prefix and post fix notation for (a+b)*c-(d+e)^(f-g)
+
+7. What is the output of the program
+main()
+{
+int i=5;
+printf("%d",fun(fun(fun(fun( fun(i))))));
+}
+void fun (int i)
+{ if(i%2) return (i+(7*4)-(5/2)+(2*2));
+else return (i+(17/5)-(34/15)+(5/2));
+}
+
+8. When it is always true boolean fun
+(node *p)
+{
+return ((p==null)||(p->next==null)|| (p->info<=p->next->info)&&( fun(p->next)));
+}
+a) when list is empty or has one node
+b) when the ele are sorted in non decreasing order
+c) when the ele are sorted in non increasing order
+
+9. What is x here (x&&!(x&(x-1))==1)
+a) x is always a prime
+b) x is a power of 2
+c) x is even d)x is odd
+
+10. What is the difference between deep copy and shallow copy
+
+11. In java what is the difference between sleep() and wait().
+
+12. What happens when the parent process of a child process exits before the child ?
+
+13. There are three persons A, B, C. A shots the target 6 times out of 7 shots. B shots 4 out of 5 shots. Then what is the probability of hitting the target twice when 2 persons are selected at random.
+
+14. What is valid in cpp char *cp; const char *cpp; 1) cpp=cp; 2) cp=cpp;
+
+15. Write program to swap 2 variables without using extra memory.
+
+16. Write a shell command to find all Java files present in nested directories.
+
+17. There are 6 pairs of black socks and 6 pairs of white socks. What is the probability to pick a pair of black or white socks when 2 socks are selected randomly in darkness.
+
+18. A string of alphanumeric is there. Find a string that starts with b and ends with 3 characters. 
